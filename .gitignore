@@ -208,3 +208,9 @@ __marimo__/
 lightning_logs/
 data/raw/
 data/processed/
+
+# Training artifacts — don't track in git
+lightning_logs/
+experiments/checkpoints/
+data/raw/
+data/processed/
