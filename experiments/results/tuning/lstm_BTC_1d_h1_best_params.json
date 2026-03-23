@@ -1,0 +1,21 @@
+{
+  "study_name": "lstm_BTC_1d_h1",
+  "model": "lstm",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 1,
+  "n_trials": 30,
+  "best_value": 0.059452906250953674,
+  "best_params": {
+    "seq_len": 90,
+    "batch_size": 64,
+    "lr": 0.004477086046364632,
+    "weight_decay": 0.004046300871922788,
+    "hidden_size": 128,
+    "num_layers": 1,
+    "dropout": 0.29579516350949403,
+    "optimizer": "adam",
+    "scheduler": "cosine"
+  },
+  "best_trial": 22
+}

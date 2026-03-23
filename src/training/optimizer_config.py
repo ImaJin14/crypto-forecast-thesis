@@ -130,7 +130,6 @@ def get_scheduler(
             factor   = kwargs.get("factor",   0.5),
             patience = kwargs.get("patience", 10),
             min_lr   = kwargs.get("min_lr",   1e-6),
-            verbose  = False,
         )
 
     elif name == "onecycle":
