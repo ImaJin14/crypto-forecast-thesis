@@ -1,0 +1,19 @@
+# LSTM · BTC · 1-hour horizon
+defaults:
+  - base_config
+
+model:
+  name: lstm
+  hidden_size: 256
+  num_layers: 2
+  dropout: 0.3
+
+data:
+  target_asset: BTC
+  interval: 1h
+  forecast_horizon: 1
+
+training:
+  max_epochs: 150
+  batch_size: 64
+  learning_rate: 0.001

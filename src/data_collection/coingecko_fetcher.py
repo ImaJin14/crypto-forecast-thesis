@@ -1,0 +1,1 @@
+"""CoinGecko backup price fetcher."""

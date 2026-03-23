@@ -1,0 +1,10 @@
+# Ablation: remove on-chain features
+defaults:
+  - base_config
+
+features:
+  onchain_metrics: false
+
+experiment:
+  ablation_group: no_onchain
+  description: "Measure marginal impact of on-chain metrics"

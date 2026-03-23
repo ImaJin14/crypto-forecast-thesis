@@ -1,0 +1,44 @@
+# Base configuration — inherited by all experiment configs
+
+project:
+  name: "crypto-forecast-thesis"
+  author: "Justin Fogue Nkouatchet"
+  seed: 42
+
+data:
+  assets: [BTC, ETH, SOL, SUI, XRP]
+  intervals: [1h, 1d]
+  start_date: "2020-01-01"
+  end_date: "2025-12-31"
+  sequence_length: 60
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+features:
+  price_volume: true
+  technical_indicators: true
+  onchain_metrics: true
+  sentiment: true
+  macro: true
+  ltst_decomposition: true
+
+training:
+  max_epochs: 200
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: adam
+  scheduler: cosine_annealing
+  early_stopping_patience: 15
+  dropout: 0.2
+  weight_decay: 0.0001
+
+evaluation:
+  metrics: [rmse, mae, mape, r2, directional_accuracy, sharpe_ratio, max_drawdown, win_rate]
+  dm_test: true
+  ablation: true
+
+logging:
+  mlflow: true
+  wandb: false
+  log_every_n_steps: 10
