@@ -1,8 +1,0 @@
-loss_kwargs: null
-loss_name: combined
-lr: 0.001
-max_epochs: 5
-model_name: lstm
-optimizer_name: adam
-scheduler_name: cosine
-weight_decay: 0.0001
