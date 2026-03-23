@@ -1,0 +1,21 @@
+{
+  "study_name": "gru_BTC_1d_h1",
+  "model": "gru",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 1,
+  "n_trials": 20,
+  "best_value": 0.05318746715784073,
+  "best_params": {
+    "seq_len": 90,
+    "batch_size": 64,
+    "lr": 0.00859023790873629,
+    "weight_decay": 0.008132690537193652,
+    "hidden_size": 128,
+    "num_layers": 1,
+    "dropout": 0.37101219226987536,
+    "optimizer": "adam",
+    "scheduler": "cosine"
+  },
+  "best_trial": 12
+}
