@@ -4,19 +4,19 @@
   "asset": "BTC",
   "interval": "1d",
   "horizon": 1,
-  "n_trials": 20,
-  "best_value": 0.014415813609957695,
+  "n_trials": 5,
+  "best_value": 0.08692676573991776,
   "best_params": {
-    "seq_len": 90,
-    "batch_size": 32,
-    "lr": 0.008781408196485976,
-    "weight_decay": 0.007715105777813051,
-    "num_filters": 64,
-    "kernel_size": 7,
-    "hidden_size": 64,
+    "seq_len": 60,
+    "batch_size": 64,
+    "lr": 0.0035503048581283078,
+    "weight_decay": 0.006584106160121612,
+    "num_filters": 128,
+    "kernel_size": 5,
+    "hidden_size": 128,
     "num_layers": 3,
-    "dropout": 0.17186856720009175,
+    "dropout": 0.2070259980080768,
     "optimizer": "adamw"
   },
-  "best_trial": 6
+  "best_trial": 2
 }
