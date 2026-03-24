@@ -1,0 +1,22 @@
+{
+  "study_name": "cnn_lstm_BTC_1d_h30",
+  "model": "cnn_lstm",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 30,
+  "n_trials": 15,
+  "best_value": 0.09739609807729721,
+  "best_params": {
+    "seq_len": 60,
+    "batch_size": 64,
+    "lr": 0.0035503048581283078,
+    "weight_decay": 0.006584106160121612,
+    "num_filters": 128,
+    "kernel_size": 5,
+    "hidden_size": 128,
+    "num_layers": 3,
+    "dropout": 0.2070259980080768,
+    "optimizer": "adamw"
+  },
+  "best_trial": 2
+}

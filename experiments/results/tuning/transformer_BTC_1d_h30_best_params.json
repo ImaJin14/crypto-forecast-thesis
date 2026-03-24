@@ -1,0 +1,22 @@
+{
+  "study_name": "transformer_BTC_1d_h30",
+  "model": "transformer",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 30,
+  "n_trials": 15,
+  "best_value": 0.0981253907084465,
+  "best_params": {
+    "seq_len": 120,
+    "batch_size": 16,
+    "lr": 0.004274869455295219,
+    "weight_decay": 0.001319994226153501,
+    "d_model": 128,
+    "nhead": 8,
+    "num_encoder_layers": 3,
+    "dim_feedforward": 128,
+    "dropout": 0.13129583050668675,
+    "scheduler": "cosine"
+  },
+  "best_trial": 3
+}

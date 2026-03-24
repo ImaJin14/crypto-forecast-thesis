@@ -1,0 +1,20 @@
+{
+  "study_name": "bilstm_BTC_1d_h30",
+  "model": "bilstm",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 30,
+  "n_trials": 15,
+  "best_value": 0.09710478037595749,
+  "best_params": {
+    "seq_len": 90,
+    "batch_size": 16,
+    "lr": 0.0069782812651260325,
+    "weight_decay": 1.8427970406864546e-05,
+    "hidden_size": 256,
+    "num_layers": 2,
+    "dropout": 0.20853961270955837,
+    "optimizer": "adam"
+  },
+  "best_trial": 3
+}

@@ -1,0 +1,21 @@
+{
+  "study_name": "attention_lstm_BTC_1d_h14",
+  "model": "attention_lstm",
+  "asset": "BTC",
+  "interval": "1d",
+  "horizon": 14,
+  "n_trials": 15,
+  "best_value": 0.09661825001239777,
+  "best_params": {
+    "seq_len": 60,
+    "batch_size": 32,
+    "lr": 0.0028708753481954683,
+    "weight_decay": 0.0020597335357437196,
+    "hidden_size": 512,
+    "num_layers": 2,
+    "dropout": 0.19926940745579477,
+    "optimizer": "adamw",
+    "scheduler": "cosine"
+  },
+  "best_trial": 4
+}
